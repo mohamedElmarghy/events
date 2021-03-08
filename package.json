@@ -1,5 +1,6 @@
 {
-  "name": "eventsapp",
+  "homepage": "http://mohamedElmarghy.github.io/events",
+  "name": "events",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,10 +28,13 @@
     "revalidate": "^1.2.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
+    "serve": "^11.3.2",
     "toastr": "^2.1.4",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
