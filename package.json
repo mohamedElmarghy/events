@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mohamedElmarghy.github.io/events",
-  "name": "events",
+  "homepage": "http://mohamedElmarghy.github.io/events_app",
+  "name": "events_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
