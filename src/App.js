@@ -20,7 +20,7 @@ class App extends React.Component {
     <Fragment>
 
         <ModalsManager />
-        <Route exact path='/' component={Revents} />
+        <Route exact path='/events' component={Revents} />
         <Route path='/(.+)' render={()=>(
           <Fragment>
             

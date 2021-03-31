@@ -26,7 +26,7 @@ const SignedInLink = ({signOut, user, history}) =>{
             icon='power'
             onClick={()=> {
               signOut();
-              history.push('/');
+              history.push('/events');
             }}
           />
         </Dropdown.Menu>
