@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mohamedElmarghy.github.io/events_app",
+  "homepage": "http://mohamedElmarghy.github.io/",
   "name": "events_app",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
-    "redux-firestore": "^0.14.0",
+    "redux-firestore": "^0.15.0",
     "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0",
     "revalidate": "^1.2.0",
